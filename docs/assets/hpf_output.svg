@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="318" height="384">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="monospace" font-size="14" fill="black">
+<text x="12" y="26">t=0: run P1 (prio=5 -&gt; 3)</text>
+<text x="12" y="46">t=1: run P2 (prio=5 -&gt; 3)</text>
+<text x="12" y="66">t=2: run P3 (prio=7 -&gt; 5)</text>
+<text x="12" y="86">t=3: run P1 (prio=5 -&gt; 3)</text>
+<text x="12" y="106">t=4: run P3 (prio=6 -&gt; 4)</text>
+<text x="12" y="126">t=5: run P2 (prio=6 -&gt; 4)</text>
+<text x="12" y="146">t=6: run P4 (prio=7 -&gt; 5)</text>
+<text x="12" y="166">t=7: run P1 (prio=6 -&gt; 4)</text>
+<text x="12" y="186">t=8: run P2 (prio=6 -&gt; 4)</text>
+<text x="12" y="206">t=9: run P4 (prio=7 -&gt; 5)</text>
+<text x="12" y="226">t=10: run P2 (prio=5 -&gt; 3)</text>
+<text x="12" y="246">t=11: run P4 (prio=6 -&gt; 4)</text>
+<text x="12" y="266"></text>
+<text x="12" y="286">Final priorities and waiting times:</text>
+<text x="12" y="306">P1: final priority=4, waiting=5</text>
+<text x="12" y="326">P2: final priority=3, waiting=7</text>
+<text x="12" y="346">P3: final priority=4, waiting=2</text>
+<text x="12" y="366">P4: final priority=4, waiting=7</text>
+</g></svg>
