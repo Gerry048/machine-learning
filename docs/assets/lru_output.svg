@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="334" height="524">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="monospace" font-size="14" fill="black">
+<text x="12" y="26">LRU Page Replacement:</text>
+<text x="12" y="46">Frames: 3</text>
+<text x="12" y="66">01: page=3 -&gt; fault, frames=[3]</text>
+<text x="12" y="86">02: page=5 -&gt; fault, frames=[3, 5]</text>
+<text x="12" y="106">03: page=2 -&gt; fault, frames=[3, 5, 2]</text>
+<text x="12" y="126">04: page=1 -&gt; fault, frames=[1, 5, 2]</text>
+<text x="12" y="146">05: page=4 -&gt; fault, frames=[1, 4, 2]</text>
+<text x="12" y="166">06: page=2 -&gt; hit, frames=[1, 4, 2]</text>
+<text x="12" y="186">07: page=5 -&gt; fault, frames=[5, 4, 2]</text>
+<text x="12" y="206">08: page=3 -&gt; fault, frames=[5, 3, 2]</text>
+<text x="12" y="226">09: page=1 -&gt; fault, frames=[5, 3, 1]</text>
+<text x="12" y="246">10: page=2 -&gt; fault, frames=[2, 3, 1]</text>
+<text x="12" y="266">11: page=6 -&gt; fault, frames=[2, 6, 1]</text>
+<text x="12" y="286">12: page=4 -&gt; fault, frames=[2, 6, 4]</text>
+<text x="12" y="306">13: page=3 -&gt; fault, frames=[3, 6, 4]</text>
+<text x="12" y="326">14: page=2 -&gt; fault, frames=[3, 2, 4]</text>
+<text x="12" y="346">15: page=5 -&gt; fault, frames=[3, 2, 5]</text>
+<text x="12" y="366">16: page=7 -&gt; fault, frames=[7, 2, 5]</text>
+<text x="12" y="386">17: page=2 -&gt; hit, frames=[7, 2, 5]</text>
+<text x="12" y="406">18: page=4 -&gt; fault, frames=[7, 2, 4]</text>
+<text x="12" y="426">19: page=1 -&gt; fault, frames=[1, 2, 4]</text>
+<text x="12" y="446">20: page=6 -&gt; fault, frames=[1, 6, 4]</text>
+<text x="12" y="466"></text>
+<text x="12" y="486">Total hits: 2</text>
+<text x="12" y="506">Total faults: 18</text>
+</g></svg>

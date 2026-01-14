@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="385" height="544">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="monospace" font-size="14" fill="black">
+<text x="12" y="26">Best-fit allocation process:</text>
+<text x="12" y="46">P1 size=212: allocated [800, 1012) size=212</text>
+<text x="12" y="66">P2 size=417: allocated [100, 517) size=417</text>
+<text x="12" y="86">P3 size=112: allocated [600, 712) size=112</text>
+<text x="12" y="106"></text>
+<text x="12" y="126">Free blocks after allocation:</text>
+<text x="12" y="146">[0, 100) size=100</text>
+<text x="12" y="166">[517, 600) size=83</text>
+<text x="12" y="186">[712, 800) size=88</text>
+<text x="12" y="206">[1012, 1100) size=88</text>
+<text x="12" y="226">[1100, 1700) size=600</text>
+<text x="12" y="246"></text>
+<text x="12" y="266">Reclaiming processes:</text>
+<text x="12" y="286">P1 released [800, 1012) size=212</text>
+<text x="12" y="306">P2 released [100, 517) size=417</text>
+<text x="12" y="326">P3 released [600, 712) size=112</text>
+<text x="12" y="346"></text>
+<text x="12" y="366">Free blocks after reclaim:</text>
+<text x="12" y="386">[0, 100) size=100</text>
+<text x="12" y="406">[100, 517) size=417</text>
+<text x="12" y="426">[517, 600) size=83</text>
+<text x="12" y="446">[600, 712) size=112</text>
+<text x="12" y="466">[712, 800) size=88</text>
+<text x="12" y="486">[800, 1012) size=212</text>
+<text x="12" y="506">[1012, 1100) size=88</text>
+<text x="12" y="526">[1100, 1700) size=600</text>
+</g></svg>

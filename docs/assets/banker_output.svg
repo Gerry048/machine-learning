@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="164">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="monospace" font-size="14" fill="black">
+<text x="12" y="26">Initial Available: [9, 5, 6]</text>
+<text x="12" y="46">Need Matrix:</text>
+<text x="12" y="66">P0: [3, 2, 1]</text>
+<text x="12" y="86">P1: [1, 2, 1]</text>
+<text x="12" y="106">P2: [2, 1, 1]</text>
+<text x="12" y="126">P3: [0, 1, 1]</text>
+<text x="12" y="146">Safe sequence found: P0 -&gt; P1 -&gt; P2 -&gt; P3</text>
+</g></svg>
